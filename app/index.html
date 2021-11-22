@@ -3,6 +3,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+<!--    <link rel="stylesheet" href="styles/main.scss">-->
     <link rel=“stylesheet” href=“https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css”/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +13,7 @@
   <header class=" header__container">
     <div class="container header__container">
       <div class="header__logo">
-      <div class="logo">VIgOur</div>
+      <div class="logo">VIgOuR</div>
       </div>
       <nav class="header__nav">
         <ul class="nav__list">
@@ -24,6 +25,59 @@
       </nav>
     </div>
   </header>
+  <section class="carousel">
+    <!-- carousel -->
+    <ul class="carousel-list">
+      <li id="1" class="carousel-slide">
+        <div class="slide-container">
+          <div>
+          <h2 class="slide-title">Kreatyna</h2>
+          <p class="slide-text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <img src="styles/images/kreatyna-mandarynka.jpg" alt=".">
+        </div>
+        <div class="carousel-snapper">
+          <a href="#3" class="carousel-prev">last slide</a>
+          <a href="#2" class="carousel-next">next slide</a>
+        </div>
+      </li>
+      <li id="2" class="carousel-slide">
+        <div class="slide-container">
+          <h2 class="slide-title">Białko</h2>
+          <p class="slide-text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="carousel-snapper"></div>
+        <a href="#1" class="carousel-prev">previous slide</a>
+        <a href="#3" class="carousel-next">next slide</a>
+      </li>
+      <li id="3" class="carousel-slide">
+        <div class="slide-container">
+          <h2 class="slide-title">Cyturulina</h2>
+          <p class="slide-text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="carousel-snapper"></div>
+        <a href="#2" class="carousel-prev">previous slide</a>
+        <a href="#1" class="carousel-next">first slide</a>
+      </li>
+    </ul>
+  </section>
+
   <div id="app"></div>
+  <footer class="footer__container">
+    <div class="container footer__container">
+      <div class=" footer__info">
+        <a href="#" class="logo footer__logo">VIgOuR</a>
+        <span class="footer__copyright">© 2021 Vigour, All Rights Reserved</span>
+      </div>
+      <div class="footer__social">
+        <a href="#">
+          <img src="styles/images/Facebook.svg" alt="">
+        </a>
+        <a href="#">
+          <img src="img/Twitter.svg" alt="">
+        </a>
+      </div>
+    </div>
+  </footer>
   </body>
 </html>
