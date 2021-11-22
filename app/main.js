@@ -1,12 +1,11 @@
 import "./styles/main.scss"
 import React from 'react';
+import ReactDOM from "react-dom";
 
 const App = () => {
     return (
-        <div>
-
-        </div>
+        <h1>hello react</h1>
     );
 };
 
-export default App;
+ReactDOM.render(<App/>, document.querySelector(`#app`));

@@ -1,8 +1,7 @@
-.ble {
-  font-size: 100px;
-  color: red;
-}
-.ble2 {
-  color: green;
-  font-size: 70px;
-}
+@import "generic/reset";
+
+@import "settings/global";
+@import "settings/fonts";
+@import "settings/colors";
+//@import ""
+@import "elements/header";
